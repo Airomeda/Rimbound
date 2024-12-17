@@ -1,2 +1,2 @@
-# Rimbound
-WIP RimWorld mod series
+# Rimbound - Core
+This mod framework is used for Rimbound Mods series.
