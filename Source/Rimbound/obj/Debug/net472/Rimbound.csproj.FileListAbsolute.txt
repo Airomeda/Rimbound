@@ -1,0 +1,10 @@
+C:\Penyimpanan\RimWorld Mod Project\[A] Development\Rimbound Series\Rimbound Core\Assemblies\Debug\net472\Rimbound.dll
+C:\Penyimpanan\RimWorld Mod Project\[A] Development\Rimbound Series\Rimbound Core\Assemblies\Debug\net472\Rimbound.pdb
+C:\Penyimpanan\RimWorld Mod Project\[A] Development\Rimbound Series\Rimbound Core\Source\Rimbound\obj\Debug\net472\Rimbound.csproj.AssemblyReference.cache
+C:\Penyimpanan\RimWorld Mod Project\[A] Development\Rimbound Series\Rimbound Core\Source\Rimbound\obj\Debug\net472\Rimbound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Penyimpanan\RimWorld Mod Project\[A] Development\Rimbound Series\Rimbound Core\Source\Rimbound\obj\Debug\net472\Rimbound.AssemblyInfoInputs.cache
+C:\Penyimpanan\RimWorld Mod Project\[A] Development\Rimbound Series\Rimbound Core\Source\Rimbound\obj\Debug\net472\Rimbound.AssemblyInfo.cs
+C:\Penyimpanan\RimWorld Mod Project\[A] Development\Rimbound Series\Rimbound Core\Source\Rimbound\obj\Debug\net472\Rimbound.csproj.CoreCompileInputs.cache
+C:\Penyimpanan\RimWorld Mod Project\[A] Development\Rimbound Series\Rimbound Core\Source\Rimbound\obj\Debug\net472\Rimbound.csproj.Up2Date
+C:\Penyimpanan\RimWorld Mod Project\[A] Development\Rimbound Series\Rimbound Core\Source\Rimbound\obj\Debug\net472\Rimbound.dll
+C:\Penyimpanan\RimWorld Mod Project\[A] Development\Rimbound Series\Rimbound Core\Source\Rimbound\obj\Debug\net472\Rimbound.pdb
