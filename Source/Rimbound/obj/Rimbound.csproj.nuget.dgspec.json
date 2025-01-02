@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Rimbound-Core\\Source\\Rimbound\\Rimbound.csproj": {}
+    "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\Rimbound.csproj": {}
   },
   "projects": {
-    "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Rimbound-Core\\Source\\Rimbound\\Rimbound.csproj": {
+    "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\Rimbound.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Rimbound-Core\\Source\\Rimbound\\Rimbound.csproj",
+        "projectUniqueName": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\Rimbound.csproj",
         "projectName": "RimboundCore",
-        "projectPath": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Rimbound-Core\\Source\\Rimbound\\Rimbound.csproj",
+        "projectPath": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\Rimbound.csproj",
         "packagesPath": "C:\\Users\\Rayyan\\.nuget\\packages\\",
-        "outputPath": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Rimbound-Core\\Source\\Rimbound\\obj\\",
+        "outputPath": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

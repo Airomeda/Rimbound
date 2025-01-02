@@ -4,7 +4,7 @@
 	<author>Airo</author>
 	<description>A mod framework that is required for the Rimbound series mods.</description>
 	<packageId>Airo.RimboundCore</packageId>
-	<url />
+	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=3397548030</url>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/RimboundLogo</modIconPath>
 	<supportedVersions>
 		<li>1.5</li>
