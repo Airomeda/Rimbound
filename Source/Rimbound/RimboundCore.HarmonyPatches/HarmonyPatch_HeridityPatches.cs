@@ -32,72 +32,35 @@ namespace RimboundCore.HarmonyPatches
         }
         public static void HarmonyPatchPostfix_PregnancyUtilityGetInheritedGenes(Pawn mother, Pawn father, ref List<GeneDef> __result)
         {
-            List<Gene> genesA = new List<Gene>();
-            List<Gene> genesB = new List<Gene>();
-
-            GeneInheritanceExtension extensionA = new GeneInheritanceExtension();
-            GeneInheritanceExtension extensionB = new GeneInheritanceExtension();
-
-            if (mother?.genes != null)
+            if (mother != null || father != null)
             {
-                genesA = mother.genes.GenesListForReading;
-                extensionA = CheckForModExtension(genesA);
-            }
-            if (father?.genes != null)
-            {
-                genesB = father.genes.GenesListForReading;
-                extensionB = CheckForModExtension(genesB);
-            }
+                List<Gene> genesA = new List<Gene>();
+                List<Gene> genesB = new List<Gene>();
 
-            if (extensionA != null || extensionB != null)
-            {
-                bool parentA = mother != null && extensionA?.passXenotypeGenes == true;
-                bool parentB = father != null && extensionB?.passXenotypeGenes == true;
-                bool bothParent = parentA & parentB;
-                bool sameXenotype = mother.genes.Xenotype == father.genes.Xenotype;
+                GeneInheritanceExtension extensionA = new GeneInheritanceExtension();
+                GeneInheritanceExtension extensionB = new GeneInheritanceExtension();
 
-                if (parentA && !parentB && !sameXenotype)
+                if (mother.genes != null)
                 {
-                    List<GeneDef> list = new List<GeneDef>();
-                    if (Rand.Chance(extensionA.xenotypeGenesChance))
-                    {
-                        foreach (GeneDef item in mother.genes.Xenotype.AllGenes)
-                        {
-                            list.Add(item);
-                        }
-                        inheritedXenotype = extensionA.xenotypeDefName;
-                    }
-                    else
-                    {
-                        list = __result;
-                        inheritedXenotype = null;
-                    }
-                    __result = list;
+                    genesA = mother.genes.GenesListForReading;
+                    extensionA = CheckForModExtension(genesA);
                 }
-                else if (!parentA && parentB && !sameXenotype)
+                if (father.genes != null)
                 {
-                    List<GeneDef> list = new List<GeneDef>();
-                    if (Rand.Chance(extensionB.xenotypeGenesChance))
-                    {
-                        foreach (GeneDef item in father.genes.Xenotype.AllGenes)
-                        {
-                            list.Add(item);
-                        }
-                        inheritedXenotype = extensionB.xenotypeDefName;
-                    }
-                    else
-                    {
-                        list = __result;
-                        inheritedXenotype = null;
-                    }
-                    __result = list;
+                    genesB = father.genes.GenesListForReading;
+                    extensionB = CheckForModExtension(genesB);
                 }
-                else if (bothParent && !sameXenotype)
+
+                if (extensionA != null || extensionB != null)
                 {
-                    List<GeneDef> list = new List<GeneDef>();
-                    if (Rand.Chance(extensionA.xenotypeGenesChance + extensionB.xenotypeGenesChance))
+                    bool parentA = extensionA?.passXenotypeGenes == true;
+                    bool parentB = extensionB?.passXenotypeGenes == true;
+                    bool sameXenotype = mother.genes.Xenotype == father.genes.Xenotype;
+
+                    if (parentA && !parentB && !sameXenotype)
                     {
-                        if (Rand.Chance(0.5f))
+                        List<GeneDef> list = new List<GeneDef>();
+                        if (Rand.Chance(extensionA.xenotypeGenesChance))
                         {
                             foreach (GeneDef item in mother.genes.Xenotype.AllGenes)
                             {
@@ -107,30 +70,69 @@ namespace RimboundCore.HarmonyPatches
                         }
                         else
                         {
+                            list = __result;
+                            inheritedXenotype = null;
+                        }
+                        __result = list;
+                    }
+                    else if ((!parentA && parentB) && !sameXenotype)
+                    {
+                        List<GeneDef> list = new List<GeneDef>();
+                        if (Rand.Chance(extensionB.xenotypeGenesChance))
+                        {
                             foreach (GeneDef item in father.genes.Xenotype.AllGenes)
                             {
                                 list.Add(item);
                             }
                             inheritedXenotype = extensionB.xenotypeDefName;
                         }
+                        else
+                        {
+                            list = __result;
+                            inheritedXenotype = null;
+                        }
+                        __result = list;
+                    }
+                    else if ((parentA && parentB) && !sameXenotype)
+                    {
+                        List<GeneDef> list = new List<GeneDef>();
+                        if (Rand.Chance(extensionA.xenotypeGenesChance + extensionB.xenotypeGenesChance))
+                        {
+                            if (Rand.Chance(0.5f))
+                            {
+                                foreach (GeneDef item in mother.genes.Xenotype.AllGenes)
+                                {
+                                    list.Add(item);
+                                }
+                                inheritedXenotype = extensionA.xenotypeDefName;
+                            }
+                            else
+                            {
+                                foreach (GeneDef item in father.genes.Xenotype.AllGenes)
+                                {
+                                    list.Add(item);
+                                }
+                                inheritedXenotype = extensionB.xenotypeDefName;
+                            }
 
+                        }
+                        else
+                        {
+                            list = __result;
+                            inheritedXenotype = null;
+                        }
+                        __result = list;
                     }
-                    else
+                    else if ((parentA && parentB) && sameXenotype)
                     {
-                        list = __result;
-                        inheritedXenotype = null;
+                        List<GeneDef> list = new List<GeneDef>();
+                        foreach (GeneDef item in mother.genes.Xenotype.AllGenes)
+                        {
+                            list.Add(item);
+                        }
+                        inheritedXenotype = extensionA.xenotypeDefName;
+                        __result = list;
                     }
-                    __result = list;
-                }
-                else if (bothParent && sameXenotype)
-                {
-                    List<GeneDef> list = new List<GeneDef>();
-                    foreach (GeneDef item in mother.genes.Xenotype.AllGenes)
-                    {
-                        list.Add(item);
-                    }
-                    inheritedXenotype = extensionA.xenotypeDefName;
-                    __result = list;
                 }
             }
         }
