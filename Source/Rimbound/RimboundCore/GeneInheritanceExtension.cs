@@ -7,8 +7,6 @@ namespace RimboundCore
     {
         public bool passXenotypeGenes = false;
 
-        public XenotypeDef xenotypeDefName;
-
         public float xenotypeGenesChance = 0.5f;
     }
 }
