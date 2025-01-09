@@ -48,7 +48,7 @@ namespace RimboundCore
         public override void Notify_PawnDied(DamageInfo? dinfo, Hediff culprit = null)
         {
             base.Notify_PawnDied(dinfo, culprit);
-            if (pawn?.Corpse == null && pawn?.Corpse.Map == null)
+            if (this.pawn?.Corpse != null && this.pawn?.Corpse.Map != null)
             {
                 ThoughtDurationMultipliers.TryRemove(pawn.thingIDNumber, out var value);
             }
