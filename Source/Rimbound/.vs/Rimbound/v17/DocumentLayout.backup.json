@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\genememory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\genememory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\hediffcomp_exploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\hediffcomp_exploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore.harmonypatches\\harmonypatch_heriditypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore.harmonypatches\\harmonypatch_heriditypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HediffComp_Exploder.cs",
-              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\HediffComp_Exploder.cs",
-              "RelativeDocumentMoniker": "RimboundCore\\HediffComp_Exploder.cs",
-              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\HediffComp_Exploder.cs",
-              "RelativeToolTip": "RimboundCore\\HediffComp_Exploder.cs",
-              "ViewState": "AgIAABMAAADAAAAAAAAQwCMAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T09:44:09.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GeneMemory.cs",
-              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneMemory.cs",
-              "RelativeDocumentMoniker": "RimboundCore\\GeneMemory.cs",
-              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneMemory.cs",
-              "RelativeToolTip": "RimboundCore\\GeneMemory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAApAAAAAAAAAA==",
+              "Title": "HarmonyPatch_HeridityPatches.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore.HarmonyPatches\\HarmonyPatch_HeridityPatches.cs",
+              "RelativeDocumentMoniker": "RimboundCore.HarmonyPatches\\HarmonyPatch_HeridityPatches.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore.HarmonyPatches\\HarmonyPatch_HeridityPatches.cs",
+              "RelativeToolTip": "RimboundCore.HarmonyPatches\\HarmonyPatch_HeridityPatches.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAAANYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T09:42:45.312Z",
+              "WhenOpened": "2025-01-10T07:59:56.056Z",
               "EditorCaption": ""
             }
           ]

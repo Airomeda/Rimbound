@@ -30,6 +30,9 @@ namespace RimboundCore.HarmonyPatches
             harmony.Patch(AccessTools.Method(typeof(PregnancyUtility), "TryGetInheritedXenotype"),
                 postfix: new HarmonyMethod(patchType, nameof(HarmonyPatchPosfix_PregnancyUtilityTryGetInheritedXenotype))
             );
+            harmony.Patch(AccessTools.Method(typeof(PregnancyUtility), "ShouldByHybrid"),
+                postfix: new HarmonyMethod(patchType, nameof(HarmonyPatchPosfix_PregnancyUtilityShouldByHybrid))
+            );
         }
         public static void HarmonyPatchPostfix_PregnancyUtilityGetInheritedGenes(Pawn mother, Pawn father, ref List<GeneDef> __result)
         {
@@ -52,6 +55,9 @@ namespace RimboundCore.HarmonyPatches
 
             if (extensionA != null || extensionB != null)
             {
+                motherXenotype = false;
+                fatherXenotype = false;
+
                 bool parentA = extensionA != null && extensionA.passXenotypeGenes == true;
                 bool parentB = extensionB != null && extensionB.passXenotypeGenes == true;
                 bool sameXenotype = xenotypeA == xenotypeB;
@@ -136,7 +142,7 @@ namespace RimboundCore.HarmonyPatches
                         list.Add(item);
                     }
                     motherXenotype = true;
-                    fatherXenotype = false;
+                    fatherXenotype = true;
                     __result = list;
                 }
             }
@@ -158,22 +164,49 @@ namespace RimboundCore.HarmonyPatches
 
             if (extensionA != null || extensionB != null)
             {
-                xenotype = null;
-                __result = false;
+                bool xenotypeMother = motherXenotype && extensionA != null;
+                bool xenotypeFather = fatherXenotype && extensionB != null;
 
-                if (motherXenotype == true)
+                xenotype = null;
+                if (xenotypeMother == true && xenotypeFather == false)
                 {
                     xenotype = mother.genes.Xenotype;
-                    __result = true;
                 }
-                else if (fatherXenotype == true)
+                else if (xenotypeMother == false && xenotypeFather == true)
                 {
                     xenotype = father.genes.Xenotype;
-                    __result = true;
                 }
+                else if (xenotypeMother == true && xenotypeFather == true)
+                {
+                    xenotype = mother.genes.Xenotype;
+                }
+                __result = true;
+            }
+        }
 
-                motherXenotype = false;
-                fatherXenotype = false;
+        public static void HarmonyPatchPosfix_PregnancyUtilityShouldByHybrid(Pawn mother, Pawn father, ref bool __result)
+        {
+            GeneInheritanceExtension extensionA = null;
+            GeneInheritanceExtension extensionB = null;
+
+            if (mother != null && mother.genes != null)
+            {
+                extensionA = CheckForModExtension(mother.genes.GenesListForReading);
+            }
+            if (father != null && father.genes != null)
+            {
+                extensionB = CheckForModExtension(father.genes.GenesListForReading);
+            }
+
+            if (extensionA != null || extensionB != null)
+            {
+                bool xenotypeMother = motherXenotype && extensionA != null;
+                bool xenotypeFather = fatherXenotype && extensionB != null;
+
+                if (xenotypeMother == true || xenotypeFather == true)
+                {
+                    __result = false;
+                }
             }
         }
 
