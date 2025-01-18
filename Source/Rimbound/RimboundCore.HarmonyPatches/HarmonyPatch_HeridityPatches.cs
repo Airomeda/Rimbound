@@ -55,8 +55,8 @@ namespace RimboundCore.HarmonyPatches
 
             if (extensionA != null || extensionB != null)
             {
-                motherXenotype = false;
-                fatherXenotype = false;
+                motherXenotype = true;
+                fatherXenotype = true;
 
                 bool parentA = extensionA != null && extensionA.passXenotypeGenes == true;
                 bool parentB = extensionB != null && extensionB.passXenotypeGenes == true;
@@ -167,20 +167,21 @@ namespace RimboundCore.HarmonyPatches
                 bool xenotypeMother = motherXenotype && extensionA != null;
                 bool xenotypeFather = fatherXenotype && extensionB != null;
 
-                xenotype = null;
                 if (xenotypeMother == true && xenotypeFather == false)
                 {
                     xenotype = mother.genes.Xenotype;
+                    __result = true;
                 }
-                else if (xenotypeMother == false && xenotypeFather == true)
+                if (xenotypeMother == false && xenotypeFather == true)
                 {
                     xenotype = father.genes.Xenotype;
+                    __result = true;
                 }
-                else if (xenotypeMother == true && xenotypeFather == true)
+                if (xenotypeMother == true && xenotypeFather == true)
                 {
                     xenotype = mother.genes.Xenotype;
+                    __result = true;
                 }
-                __result = true;
             }
         }
 

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RimboundCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8aaa9235ec4e98072e9c3ef42423531439411b4e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12232759c8674e96b0cdcd1fcecc6d585779381a")]
 [assembly: System.Reflection.AssemblyProductAttribute("RimboundCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RimboundCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
