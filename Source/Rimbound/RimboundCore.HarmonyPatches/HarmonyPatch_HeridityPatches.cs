@@ -11,8 +11,8 @@ namespace RimboundCore.HarmonyPatches
     {
         private static readonly Type patchType;
 
-        private static bool motherXenotype;
-        private static bool fatherXenotype;
+        private static bool motherXenotype = true;
+        private static bool fatherXenotype = true;
 
         static HarmonyPatch_HeridityPatches()
         {
@@ -34,6 +34,7 @@ namespace RimboundCore.HarmonyPatches
                 postfix: new HarmonyMethod(patchType, nameof(HarmonyPatchPosfix_PregnancyUtilityShouldByHybrid))
             );
         }
+
         public static void HarmonyPatchPostfix_PregnancyUtilityGetInheritedGenes(Pawn mother, Pawn father, ref List<GeneDef> __result)
         {
             GeneInheritanceExtension extensionA = null;
@@ -55,9 +56,6 @@ namespace RimboundCore.HarmonyPatches
 
             if (extensionA != null || extensionB != null)
             {
-                motherXenotype = true;
-                fatherXenotype = true;
-
                 bool parentA = extensionA != null && extensionA.passXenotypeGenes == true;
                 bool parentB = extensionB != null && extensionB.passXenotypeGenes == true;
                 bool sameXenotype = xenotypeA == xenotypeB;
