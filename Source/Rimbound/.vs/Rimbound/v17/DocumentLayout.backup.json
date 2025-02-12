@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\hediffcomp_bodyregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\hediffcomp_bodyregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HediffComp_BodyRegeneration.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\HediffComp_BodyRegeneration.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\HediffComp_BodyRegeneration.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\HediffComp_BodyRegeneration.cs",
+              "RelativeToolTip": "RimboundCore\\HediffComp_BodyRegeneration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T13:46:18.937Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

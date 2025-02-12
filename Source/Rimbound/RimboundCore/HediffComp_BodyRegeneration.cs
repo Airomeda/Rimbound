@@ -32,8 +32,6 @@ namespace RimboundCore
 
         public int tickCounter = 0;
 
-        public const int initialRate = 1800000;
-
         public int rate = 1800000;
 
         public override void CompExposeData()
