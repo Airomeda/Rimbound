@@ -62,6 +62,11 @@ namespace RimboundCore
                     DamageInfo dinfo = new DamageInfo(DamageDefOf.Cut, num, 999f, -1f, null, bodyPartRecord);
                     dinfo.SetAllowDamagePropagation(val: false);
                     pawn.TakeDamage(dinfo);
+
+                    if (PawnUtility.ShouldSendNotificationAbout(pawn))
+                    {
+                        Messages.Message("MessagePermanentWoundHealed".Translate(parent.LabelCap, pawn.LabelShort, bodyPartRecord.Label, pawn.Named("PAWN")), pawn, MessageTypeDefOf.PositiveEvent);
+                    }
                 }
                 else
                 {
