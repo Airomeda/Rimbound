@@ -1,0 +1,17 @@
+/Source/Output
+
+/Source/*/.vs
+
+/Source/*/obj
+
+/Source/.vs/*
+
+Source/*/obj/*
+
+Source/*/bin/*
+
+/Source/*/*.csproj.user
+
+.vscode
+
+*.dds
