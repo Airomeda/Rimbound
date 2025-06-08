@@ -4,7 +4,7 @@ namespace RimboundCore
 {
     public class HediffCompProperties_BodyRegeneration : HediffCompProperties
     {
-        public IntRange rateInTicks;
+        public IntRange rateInTicks = new IntRange(900000, 1800000);
 
         public float healAmount = 1f;
 

@@ -24,10 +24,12 @@ namespace RimboundCore
             RimboundBodyDefOf.Shoulder,
             RimboundBodyDefOf.Arm,
             RimboundBodyDefOf.Hand,
+            RimboundBodyDefOf.Finger,
             RimboundBodyDefOf.Torso,
             RimboundBodyDefOf.Spine,
             RimboundBodyDefOf.Leg,
-            RimboundBodyDefOf.Foot
+            RimboundBodyDefOf.Foot,
+            RimboundBodyDefOf.Toe
         };
 
         public int tickCounter = 0;
@@ -49,32 +51,11 @@ namespace RimboundCore
             {
                 return;
             }
-            Pawn pawn = this.parent.pawn;
-            if (pawn.health != null)
-            {
-                BodyPartRecord bodyPartRecord = FindFirstMissingBodyPart(pawn);
-                if (bodyPartRecord != null)
-                {
-                    pawn.health.RestorePart(bodyPartRecord);
-                    int num = (int)pawn.health.hediffSet.GetPartHealth(bodyPartRecord) - 1;
-                    DamageInfo dinfo = new DamageInfo(DamageDefOf.Cut, num, 999f, -1f, null, bodyPartRecord);
-                    dinfo.SetAllowDamagePropagation(val: false);
-                    pawn.TakeDamage(dinfo);
 
-                    if (PawnUtility.ShouldSendNotificationAbout(pawn))
-                    {
-                        Messages.Message("MessagePermanentWoundHealed".Translate(parent.LabelCap, pawn.LabelShort, bodyPartRecord.Label, pawn.Named("PAWN")), pawn, MessageTypeDefOf.PositiveEvent);
-                    }
-                }
-                else
-                {
-                    List<Hediff_Injury> injuries = GetInjuries(pawn);
-                    if (injuries.Count > 0)
-                    {
-                        injuries.RandomElement().Severity -= Props.healAmount;
-                    }
-                }
-            }
+            Pawn pawn = this.parent.pawn;
+
+            TryRegenerateBodyPart(pawn, parent.LabelCap, Props.healAmount);
+
             rate = Props.rateInTicks.RandomInRange;
             tickCounter = 0;
         }
@@ -103,6 +84,35 @@ namespace RimboundCore
                 }
             }
             return bodyPartRecord;
+        }
+
+        public void TryRegenerateBodyPart(Pawn pawn, string cause, float heal)
+        {
+            if (pawn.health != null)
+            {
+                BodyPartRecord bodyPartRecord = FindFirstMissingBodyPart(pawn);
+                if (bodyPartRecord != null)
+                {
+                    pawn.health.RestorePart(bodyPartRecord);
+                    int num = (int)pawn.health.hediffSet.GetPartHealth(bodyPartRecord) - 1;
+                    DamageInfo dinfo = new DamageInfo(DamageDefOf.Crush, num, 999f, -1f, null, bodyPartRecord);
+                    dinfo.SetAllowDamagePropagation(val: false);
+                    pawn.TakeDamage(dinfo);
+
+                    if (PawnUtility.ShouldSendNotificationAbout(pawn))
+                    {
+                        Messages.Message("MessagePermanentWoundHealed".Translate(cause, pawn.LabelShort, bodyPartRecord.Label, pawn.Named("PAWN")), pawn, MessageTypeDefOf.PositiveEvent);
+                    }
+                }
+                else
+                {
+                    List<Hediff_Injury> injuries = GetInjuries(pawn);
+                    if (injuries.Count > 0)
+                    {
+                        injuries.RandomElement().Severity -= heal;
+                    }
+                }
+            }
         }
     }
 }

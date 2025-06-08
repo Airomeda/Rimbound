@@ -34,6 +34,8 @@ namespace RimboundCore
 
         public static BodyPartDef Hand;
 
+        public static BodyPartDef Finger;
+
         public static BodyPartDef Torso;
 
         public static BodyPartDef Spine;
@@ -41,6 +43,8 @@ namespace RimboundCore
         public static BodyPartDef Leg;
 
         public static BodyPartDef Foot;
+
+        public static BodyPartDef Toe;
 
         static RimboundBodyDefOf()
         {
