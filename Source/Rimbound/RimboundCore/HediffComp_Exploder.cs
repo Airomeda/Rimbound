@@ -21,7 +21,11 @@ namespace RimboundCore
 
         public float preExplosionSpawnChance = 0f;
 
-        public GasType? gasType = GasType.BlindSmoke;
+        public GasType? gasType;
+
+        public float? postExplosionGasRadiusOverride;
+
+        public int postExplosionGasAmount = 255;
 
         public bool applyDamageToNeighborCells = false;
 
@@ -39,7 +43,7 @@ namespace RimboundCore
                 {
                     list.Add(parent.pawn);
                 }
-                GenExplosion.DoExplosion(parent.pawn.Corpse.Position, parent.pawn.Corpse.Map, Props.radius, Props.damageDef, parent.pawn, Props.damageAmount, Props.damagePenetration, Props.soundCreated, weapon, projectile, target, Props.thingCreated, Props.thingCreatedChance, postExplosionSpawnThingCount, gasType, applyDamageToNeighborCells, preExplosionSpawnThingDef, preExplosionSpawnChance, preExplosionSpawnThingCount, Props.chanceToStartFire, damageFalloff, flammabilityChanceCurve, list);
+                GenExplosion.DoExplosion(parent.pawn.Corpse.Position, parent.pawn.Corpse.Map, Props.radius, Props.damageDef, parent.pawn, Props.damageAmount, Props.damagePenetration, Props.soundCreated, weapon, projectile, target, Props.thingCreated, Props.thingCreatedChance, postExplosionSpawnThingCount, gasType, postExplosionGasRadiusOverride, postExplosionGasAmount, applyDamageToNeighborCells, preExplosionSpawnThingDef, preExplosionSpawnChance, preExplosionSpawnThingCount, Props.chanceToStartFire, damageFalloff, flammabilityChanceCurve, list);
             }
         }
     }

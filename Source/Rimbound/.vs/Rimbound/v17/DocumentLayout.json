@@ -1,0 +1,513 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore.harmonypatches\\harmonypatch_thoughtmemoryduration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore.harmonypatches\\harmonypatch_thoughtmemoryduration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimbound.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimbound.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore.harmonypatches\\harmonypatch_statpartfertilitybygenderageagefactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore.harmonypatches\\harmonypatch_statpartfertilitybygenderageagefactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\hediffcomp_exploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\hediffcomp_exploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\geneextended.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\geneextended.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore.harmonypatches\\harmonypatch_pawngenegraphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore.harmonypatches\\harmonypatch_pawngenegraphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore.harmonypatches\\harmonypatch_heriditypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore.harmonypatches\\harmonypatch_heriditypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore.harmonypatches\\harmonypatch_headtypedefgetgraphic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore.harmonypatches\\harmonypatch_headtypedefgetgraphic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\rimboundbodydefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\rimboundbodydefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\renderproperties_faceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\renderproperties_faceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\questnode_generatexenotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\questnode_generatexenotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\pawnrendernodeworker_face.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\pawnrendernodeworker_face.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\hediffcompproperties_exploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\hediffcompproperties_exploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\hediffcompproperties_bodyregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\hediffcompproperties_bodyregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\hediffcomp_bodyregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\hediffcomp_bodyregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\headtypedefextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\headtypedefextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\generandomizeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\generandomizeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\generandomize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\generandomize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\genememoryextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\genememoryextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\genememory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\genememory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\geneinheritanceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\geneinheritanceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\genehairskincolorextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\genehairskincolorextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\genefertilitybyageextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\genefertilitybyageextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\geneextension_incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\geneextension_incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\geneextension_exploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\geneextension_exploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\genebodyregenerationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\genebodyregenerationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\genebodyregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\genebodyregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\compproperties_givehediff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\compproperties_givehediff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|c:\\penyimpanan\\rimworld mod development\\rimbound series\\rimbound-core\\source\\rimbound\\rimboundcore\\compgivehediff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C16334-EE18-4B6D-9AE0-0609E73B8D0F}|Rimbound.csproj|solutionrelative:rimboundcore\\compgivehediff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HarmonyPatch_ThoughtMemoryDuration.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore.HarmonyPatches\\HarmonyPatch_ThoughtMemoryDuration.cs",
+              "RelativeDocumentMoniker": "RimboundCore.HarmonyPatches\\HarmonyPatch_ThoughtMemoryDuration.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore.HarmonyPatches\\HarmonyPatch_ThoughtMemoryDuration.cs",
+              "RelativeToolTip": "RimboundCore.HarmonyPatches\\HarmonyPatch_ThoughtMemoryDuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:49:09.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HarmonyPatch_StatPartFertilityByGenderAgeAgeFactor.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore.HarmonyPatches\\HarmonyPatch_StatPartFertilityByGenderAgeAgeFactor.cs",
+              "RelativeDocumentMoniker": "RimboundCore.HarmonyPatches\\HarmonyPatch_StatPartFertilityByGenderAgeAgeFactor.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore.HarmonyPatches\\HarmonyPatch_StatPartFertilityByGenderAgeAgeFactor.cs",
+              "RelativeToolTip": "RimboundCore.HarmonyPatches\\HarmonyPatch_StatPartFertilityByGenderAgeAgeFactor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:49:09.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GeneExtended.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneExtended.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\GeneExtended.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneExtended.cs",
+              "RelativeToolTip": "RimboundCore\\GeneExtended.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwB8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:27.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HediffComp_Exploder.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\HediffComp_Exploder.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\HediffComp_Exploder.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\HediffComp_Exploder.cs",
+              "RelativeToolTip": "RimboundCore\\HediffComp_Exploder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:43.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rimbound",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\Rimbound.csproj",
+              "RelativeDocumentMoniker": "Rimbound.csproj",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\Rimbound.csproj",
+              "RelativeToolTip": "Rimbound.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-11T23:36:08.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HarmonyPatch_PawnGeneGraphics.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore.HarmonyPatches\\HarmonyPatch_PawnGeneGraphics.cs",
+              "RelativeDocumentMoniker": "RimboundCore.HarmonyPatches\\HarmonyPatch_PawnGeneGraphics.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore.HarmonyPatches\\HarmonyPatch_PawnGeneGraphics.cs",
+              "RelativeToolTip": "RimboundCore.HarmonyPatches\\HarmonyPatch_PawnGeneGraphics.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:49:07.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HarmonyPatch_HeridityPatches.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore.HarmonyPatches\\HarmonyPatch_HeridityPatches.cs",
+              "RelativeDocumentMoniker": "RimboundCore.HarmonyPatches\\HarmonyPatch_HeridityPatches.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore.HarmonyPatches\\HarmonyPatch_HeridityPatches.cs",
+              "RelativeToolTip": "RimboundCore.HarmonyPatches\\HarmonyPatch_HeridityPatches.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:49:07.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HarmonyPatch_HeadTypeDefGetGraphic.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore.HarmonyPatches\\HarmonyPatch_HeadTypeDefGetGraphic.cs",
+              "RelativeDocumentMoniker": "RimboundCore.HarmonyPatches\\HarmonyPatch_HeadTypeDefGetGraphic.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore.HarmonyPatches\\HarmonyPatch_HeadTypeDefGetGraphic.cs",
+              "RelativeToolTip": "RimboundCore.HarmonyPatches\\HarmonyPatch_HeadTypeDefGetGraphic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:49:06.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RimboundBodyDefOf.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\RimboundBodyDefOf.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\RimboundBodyDefOf.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\RimboundBodyDefOf.cs",
+              "RelativeToolTip": "RimboundCore\\RimboundBodyDefOf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:49:04.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RenderProperties_FaceExtension.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\RenderProperties_FaceExtension.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\RenderProperties_FaceExtension.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\RenderProperties_FaceExtension.cs",
+              "RelativeToolTip": "RimboundCore\\RenderProperties_FaceExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:49:03.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QuestNode_GenerateXenotype.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\QuestNode_GenerateXenotype.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\QuestNode_GenerateXenotype.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\QuestNode_GenerateXenotype.cs",
+              "RelativeToolTip": "RimboundCore\\QuestNode_GenerateXenotype.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:49:03.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PawnRenderNodeWorker_Face.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\PawnRenderNodeWorker_Face.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\PawnRenderNodeWorker_Face.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\PawnRenderNodeWorker_Face.cs",
+              "RelativeToolTip": "RimboundCore\\PawnRenderNodeWorker_Face.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:49:02.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HediffCompProperties_Exploder.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\HediffCompProperties_Exploder.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\HediffCompProperties_Exploder.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\HediffCompProperties_Exploder.cs",
+              "RelativeToolTip": "RimboundCore\\HediffCompProperties_Exploder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:49:01.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HediffCompProperties_BodyRegeneration.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\HediffCompProperties_BodyRegeneration.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\HediffCompProperties_BodyRegeneration.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\HediffCompProperties_BodyRegeneration.cs",
+              "RelativeToolTip": "RimboundCore\\HediffCompProperties_BodyRegeneration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:49:00.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HediffComp_BodyRegeneration.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\HediffComp_BodyRegeneration.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\HediffComp_BodyRegeneration.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\HediffComp_BodyRegeneration.cs",
+              "RelativeToolTip": "RimboundCore\\HediffComp_BodyRegeneration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:42.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HeadTypeDefExtension.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\HeadTypeDefExtension.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\HeadTypeDefExtension.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\HeadTypeDefExtension.cs",
+              "RelativeToolTip": "RimboundCore\\HeadTypeDefExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:42.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GeneRandomizeExtension.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneRandomizeExtension.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\GeneRandomizeExtension.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneRandomizeExtension.cs",
+              "RelativeToolTip": "RimboundCore\\GeneRandomizeExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:41.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GeneRandomize.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneRandomize.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\GeneRandomize.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneRandomize.cs",
+              "RelativeToolTip": "RimboundCore\\GeneRandomize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:40.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GeneMemoryExtension.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneMemoryExtension.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\GeneMemoryExtension.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneMemoryExtension.cs",
+              "RelativeToolTip": "RimboundCore\\GeneMemoryExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:39.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GeneMemory.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneMemory.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\GeneMemory.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneMemory.cs",
+              "RelativeToolTip": "RimboundCore\\GeneMemory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:38.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GeneInheritanceExtension.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneInheritanceExtension.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\GeneInheritanceExtension.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneInheritanceExtension.cs",
+              "RelativeToolTip": "RimboundCore\\GeneInheritanceExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:36.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GeneHairSkinColorExtension.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneHairSkinColorExtension.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\GeneHairSkinColorExtension.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneHairSkinColorExtension.cs",
+              "RelativeToolTip": "RimboundCore\\GeneHairSkinColorExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:33.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GeneFertilityByAgeExtension.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneFertilityByAgeExtension.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\GeneFertilityByAgeExtension.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneFertilityByAgeExtension.cs",
+              "RelativeToolTip": "RimboundCore\\GeneFertilityByAgeExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:32.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GeneExtension_Incident.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneExtension_Incident.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\GeneExtension_Incident.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneExtension_Incident.cs",
+              "RelativeToolTip": "RimboundCore\\GeneExtension_Incident.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:30.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GeneExtension_Exploder.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneExtension_Exploder.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\GeneExtension_Exploder.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneExtension_Exploder.cs",
+              "RelativeToolTip": "RimboundCore\\GeneExtension_Exploder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:29.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GeneBodyRegenerationExtension.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneBodyRegenerationExtension.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\GeneBodyRegenerationExtension.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneBodyRegenerationExtension.cs",
+              "RelativeToolTip": "RimboundCore\\GeneBodyRegenerationExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:26.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GeneBodyRegeneration.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneBodyRegeneration.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\GeneBodyRegeneration.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\GeneBodyRegeneration.cs",
+              "RelativeToolTip": "RimboundCore\\GeneBodyRegeneration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:48:25.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CompProperties_GiveHediff.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\CompProperties_GiveHediff.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\CompProperties_GiveHediff.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\CompProperties_GiveHediff.cs",
+              "RelativeToolTip": "RimboundCore\\CompProperties_GiveHediff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:45:55.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CompGiveHediff.cs",
+              "DocumentMoniker": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\CompGiveHediff.cs",
+              "RelativeDocumentMoniker": "RimboundCore\\CompGiveHediff.cs",
+              "ToolTip": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound-Core\\Source\\Rimbound\\RimboundCore\\CompGiveHediff.cs",
+              "RelativeToolTip": "RimboundCore\\CompGiveHediff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:45:49.244Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
