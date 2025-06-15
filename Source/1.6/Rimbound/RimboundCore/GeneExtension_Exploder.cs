@@ -13,5 +13,8 @@ namespace RimboundCore
         public float thingCreatedChance = 0f;
         public float chanceToStartFire = 0f;
         public bool damageUser = true;
+        public float excludeRadius = 0f;
+        public float screenShakeFactor = 0f;
+        public ThingDef postExplosionSpawnSingleThingDef = null;
     }
 }

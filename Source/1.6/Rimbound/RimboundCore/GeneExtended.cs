@@ -1,6 +1,5 @@
 ﻿using RimWorld;
 using System.Collections.Generic;
-using System.Linq;
 using Verse;
 
 namespace RimboundCore
@@ -25,7 +24,7 @@ namespace RimboundCore
                     {
                         list.Add(pawn);
                     }
-                    GenExplosion.DoExplosion(this.pawn.Corpse.Position, this.pawn.Corpse.Map, exploderExtension.radius, exploderExtension.damageDef, this.pawn.Corpse, exploderExtension.damageAmount, exploderExtension.damagePenetration, exploderExtension.soundCreated, null, null, null, exploderExtension.thingCreated, exploderExtension.thingCreatedChance, 1, null, false, null, 0f, 1, exploderExtension.chanceToStartFire, false, null, list);
+                    GenExplosion.DoExplosion(this.pawn.Corpse.Position, this.pawn.Corpse.Map, exploderExtension.radius, exploderExtension.damageDef, this.pawn.Corpse, exploderExtension.damageAmount, exploderExtension.damagePenetration, exploderExtension.soundCreated, null, null, null, exploderExtension.thingCreated, exploderExtension.thingCreatedChance, 1, null, null, 255, false, null, 0f, 1, exploderExtension.chanceToStartFire, false, null, list, null, true, 1, exploderExtension.excludeRadius, true, null, exploderExtension.screenShakeFactor, null, null, exploderExtension.postExplosionSpawnSingleThingDef, null);
                 }
             }
 

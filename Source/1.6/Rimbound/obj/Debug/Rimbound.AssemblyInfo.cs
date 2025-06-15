@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RimboundCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75cabb039050664efbff9ff1875dcfc431b3e8c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+660c6bb989233479f6fa1cc358a2b3d83cab0d34")]
 [assembly: System.Reflection.AssemblyProductAttribute("RimboundCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RimboundCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
