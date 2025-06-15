@@ -37,9 +37,9 @@ namespace RimboundCore
             {
                 if (!Props.damageUser)
                 {
-                    list.Add(parent.pawn);
+                    list.Add(this.parent.pawn);
                 }
-                GenExplosion.DoExplosion(parent.pawn.Corpse.Position, parent.pawn.Corpse.Map, Props.radius, Props.damageDef, parent.pawn, Props.damageAmount, Props.damagePenetration, Props.soundCreated, weapon, projectile, target, Props.thingCreated, Props.thingCreatedChance, postExplosionSpawnThingCount, gasType, applyDamageToNeighborCells, preExplosionSpawnThingDef, preExplosionSpawnChance, preExplosionSpawnThingCount, Props.chanceToStartFire, damageFalloff, flammabilityChanceCurve, list);
+                GenExplosion.DoExplosion(this.parent.pawn.Corpse.Position, this.parent.pawn.Corpse.Map, Props.radius, Props.damageDef, this.parent.pawn, Props.damageAmount, Props.damagePenetration, Props.soundCreated, weapon, projectile, target, Props.thingCreated, Props.thingCreatedChance, postExplosionSpawnThingCount, gasType, applyDamageToNeighborCells, preExplosionSpawnThingDef, preExplosionSpawnChance, preExplosionSpawnThingCount, Props.chanceToStartFire, damageFalloff, flammabilityChanceCurve, list);
             }
         }
     }

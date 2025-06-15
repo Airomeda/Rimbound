@@ -23,7 +23,7 @@ namespace RimboundCore
                 {
                     if (!exploderExtension.damageUser)
                     {
-                        list.Add(pawn);
+                        list.Add(this.pawn);
                     }
                     GenExplosion.DoExplosion(this.pawn.Corpse.Position, this.pawn.Corpse.Map, exploderExtension.radius, exploderExtension.damageDef, this.pawn.Corpse, exploderExtension.damageAmount, exploderExtension.damagePenetration, exploderExtension.soundCreated, null, null, null, exploderExtension.thingCreated, exploderExtension.thingCreatedChance, 1, null, false, null, 0f, 1, exploderExtension.chanceToStartFire, false, null, list);
                 }

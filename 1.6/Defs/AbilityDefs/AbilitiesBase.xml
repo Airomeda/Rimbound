@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <AbilityDef Name="RB_CastOnSelf_Abilities" Abstract="True">
+    <jobDef>CastAbilityOnThing</jobDef>
+    <targetRequired>false</targetRequired>
+    <canUseAoeToGetTargets>false</canUseAoeToGetTargets>
+    <stunTargetWhileCasting>true</stunTargetWhileCasting>
+    <showPsycastEffects>false</showPsycastEffects>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
+    <hotKey>Misc12</hotKey>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.5</warmupTime>
+      <drawAimPie>false</drawAimPie>
+      <requireLineOfSight>false</requireLineOfSight>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetHumans>false</canTargetHumans>
+        <canTargetMechs>false</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+  </AbilityDef>
+
+  <AbilityDef Name="RB_CastOnTarget_Abilities" Abstract="True">
+    <jobDef>CastAbilityOnThing</jobDef>
+    <targetRequired>true</targetRequired>
+    <canUseAoeToGetTargets>false</canUseAoeToGetTargets>
+    <stunTargetWhileCasting>true</stunTargetWhileCasting>
+    <showPsycastEffects>false</showPsycastEffects>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
+    <hotKey>Misc12</hotKey>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.5</warmupTime>
+      <drawAimPie>false</drawAimPie>
+      <requireLineOfSight>true</requireLineOfSight>
+      <targetParams>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetMechs>false</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+  </AbilityDef>
+
+</Defs>
