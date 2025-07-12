@@ -22,11 +22,10 @@ namespace RimboundCore
                 }
                 if (targetPawn != null)
                 {
-                    if (targetPawn == casterPawn && !Props.applyToCaster)
+                    if (targetPawn != casterPawn)
                     {
-                        return;
+                        targetPawn.health.AddHediff(Props.hediffDef);
                     }
-                    targetPawn.health.AddHediff(Props.hediffDef);
                 }
                 if (Props.applyToRadius)
                 {
