@@ -13,6 +13,7 @@
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
       <warmupTime>0.5</warmupTime>
+      <range>-1</range>
       <drawAimPie>false</drawAimPie>
       <requireLineOfSight>false</requireLineOfSight>
       <targetParams>
@@ -38,6 +39,7 @@
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
       <warmupTime>0.5</warmupTime>
+      <range>24.9</range>
       <drawAimPie>false</drawAimPie>
       <requireLineOfSight>true</requireLineOfSight>
       <targetParams>

@@ -6,7 +6,7 @@ namespace RimboundCore
 {
     public class GeneBodyRegeneration : Gene
     {
-        private int ticksToRegen = 2500;
+        private int ticksToRegen = 15000;
 
         public GeneBodyRegenerationExtension modExtension;
 

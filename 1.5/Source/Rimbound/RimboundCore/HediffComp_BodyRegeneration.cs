@@ -34,7 +34,21 @@ namespace RimboundCore
 
         public int tickCounter = 0;
 
-        public int rate = 1800000;
+        public int rate = 15000;
+
+        public override void CompPostMake()
+        {
+            base.CompPostMake();
+
+            rate = Props.rateInTicks.min;
+        }
+
+        public override void CompPostPostAdd(DamageInfo? dinfo)
+        {
+            base.CompPostPostAdd(dinfo);
+
+            rate = Props.rateInTicks.RandomInRange;
+        }
 
         public override void CompExposeData()
         {
