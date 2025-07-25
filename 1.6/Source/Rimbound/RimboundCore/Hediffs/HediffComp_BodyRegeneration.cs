@@ -32,46 +32,45 @@ namespace RimboundCore
             RimboundBodyDefOf.Toe
         };
 
-        public int tickCounter = 0;
-
-        public int rate = 15000;
+        private int tickCounter = 15000;
 
         public override void CompPostMake()
         {
             base.CompPostMake();
 
-            rate = Props.rateInTicks.min;
+            ResetRegenInterval();
         }
 
         public override void CompPostPostAdd(DamageInfo? dinfo)
         {
             base.CompPostPostAdd(dinfo);
 
-            rate = Props.rateInTicks.RandomInRange;
+            ResetRegenInterval();
         }
 
         public override void CompExposeData()
         {
             base.CompExposeData();
             Scribe_Values.Look(ref tickCounter, "tickCounterBodyRegen", 0);
-            Scribe_Values.Look(ref rate, "rate", 0);
         }
 
-        public override void CompPostTick(ref float severityAdjustment)
+        public override void CompPostTickInterval(ref float severityAdjustment, int delta)
         {
-            base.CompPostTick(ref severityAdjustment);
-            tickCounter++;
-            if (tickCounter < rate)
+            base.CompPostTickInterval(ref severityAdjustment, delta);
+
+            tickCounter -= delta;
+            if (tickCounter <= 0)
             {
-                return;
+                Pawn pawn = this.parent.pawn;
+
+                TryRegenerateBodyPart(pawn, parent.LabelCap, Props.healAmount, Props.damagedRestoredPart);
+                ResetRegenInterval();
             }
+        }
 
-            Pawn pawn = this.parent.pawn;
-
-            TryRegenerateBodyPart(pawn, parent.LabelCap, Props.healAmount);
-
-            rate = Props.rateInTicks.RandomInRange;
-            tickCounter = 0;
+        private void ResetRegenInterval()
+        {
+            tickCounter = Props.rateInTicks.RandomInRange;
         }
 
         public List<Hediff_Injury> GetInjuries(Pawn pawn)
@@ -100,7 +99,7 @@ namespace RimboundCore
             return bodyPartRecord;
         }
 
-        public void TryRegenerateBodyPart(Pawn pawn, string cause, float heal)
+        public void TryRegenerateBodyPart(Pawn pawn, string cause, float heal, bool damagedRegen)
         {
             if (pawn.health != null)
             {
@@ -108,10 +107,14 @@ namespace RimboundCore
                 if (bodyPartRecord != null)
                 {
                     pawn.health.RestorePart(bodyPartRecord);
-                    int num = (int)pawn.health.hediffSet.GetPartHealth(bodyPartRecord) - 1;
-                    DamageInfo dinfo = new DamageInfo(DamageDefOf.Crush, num, 999f, -1f, null, bodyPartRecord);
-                    dinfo.SetAllowDamagePropagation(val: false);
-                    pawn.TakeDamage(dinfo);
+
+                    if (damagedRegen)
+                    {
+                        int num = (int)pawn.health.hediffSet.GetPartHealth(bodyPartRecord) - 1;
+                        DamageInfo dinfo = new DamageInfo(DamageDefOf.Cut, num, 999f, -1f, null, bodyPartRecord);
+                        dinfo.SetAllowDamagePropagation(val: false);
+                        pawn.TakeDamage(dinfo);
+                    }
 
                     if (PawnUtility.ShouldSendNotificationAbout(pawn))
                     {

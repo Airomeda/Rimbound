@@ -39,19 +39,20 @@ namespace RimboundCore
         public override void PostAdd()
         {
             base.PostAdd();
+
             modExtension = def.GetModExtension<GeneBodyRegenerationExtension>();
-            ticksToRegen = modExtension.rateInTicks.min;
             ResetRegenInterval();
         }
 
-        public override void Tick()
+        public override void TickInterval(int delta)
         {
-            base.Tick();
-            ticksToRegen--;
+            base.TickInterval(delta);
+
+            ticksToRegen -= delta;
 
             if (ticksToRegen <= 0)
             {
-                hediffCompBodyRegen.TryRegenerateBodyPart(pawn, LabelCap, modExtension.healAmount);
+                hediffCompBodyRegen.TryRegenerateBodyPart(pawn, LabelCap, modExtension.healAmount, modExtension.damagedRestoredPart);
                 ResetRegenInterval();
             }
         }
@@ -64,6 +65,7 @@ namespace RimboundCore
         public override void ExposeData()
         {
             base.ExposeData();
+
             modExtension = def.GetModExtension<GeneBodyRegenerationExtension>();
             Scribe_Values.Look(ref ticksToRegen, "ticksToRegen", 0);
         }
