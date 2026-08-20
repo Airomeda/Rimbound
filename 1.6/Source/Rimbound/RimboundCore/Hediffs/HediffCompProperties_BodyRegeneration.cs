@@ -8,6 +8,8 @@ namespace RimboundCore
 
         public float healAmount = 1f;
 
+        public bool damagedRestoredPart = false;
+
         public HediffCompProperties_BodyRegeneration()
         {
             compClass = typeof(HediffComp_BodyRegeneration);

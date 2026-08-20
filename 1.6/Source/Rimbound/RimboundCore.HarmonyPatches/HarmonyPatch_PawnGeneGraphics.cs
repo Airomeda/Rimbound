@@ -5,10 +5,8 @@ using Verse;
 
 namespace RimboundCore.HarmonyPatches
 {
-    [HarmonyPatch(typeof(Gene), "PostAdd")]
     public static class HarmonyPatch_GenePostAdd
     {
-        [HarmonyPostfix]
         public static void HarmonyPatchPostfix_GenePostAdd(Gene __instance)
         {
             if (PawnGenerator.IsBeingGenerated(__instance.pawn) is false && __instance.Active)

@@ -5,10 +5,8 @@ using Verse;
 
 namespace RimboundCore.HarmonyPatches
 {
-    [HarmonyPatch(typeof(StatPart_FertilityByGenderAge), "AgeFactor")]
     public static class HarmonyPatch_StatPartFertilityByGenderAgeAgeFactor
     {
-        [HarmonyPostfix]
         public static float HarmonyPatchPostfix_FertilityByGenderAgeAgeFactor(float __result, Pawn pawn)
         {
             if (pawn != null && pawn.Spawned && pawn.RaceProps.Humanlike && !pawn.genes.GenesListForReading.NullOrEmpty())
