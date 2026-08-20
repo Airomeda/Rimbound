@@ -15,6 +15,7 @@
       <warmupTime>0.5</warmupTime>
       <drawAimPie>false</drawAimPie>
       <requireLineOfSight>false</requireLineOfSight>
+      <range>0.1</range>
       <targetParams>
         <canTargetSelf>true</canTargetSelf>
         <canTargetPawns>false</canTargetPawns>

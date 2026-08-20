@@ -2,38 +2,38 @@
 using RimWorld;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Verse;
 
 namespace RimboundCore.HarmonyPatches
 {
-    [StaticConstructorOnStartup]
     public static class HarmonyPatch_HeridityPatches
     {
-        private static readonly Type patchType;
+        //private static readonly Type patchType;
 
         private static bool motherXenotype = true;
         private static bool fatherXenotype = true;
 
-        static HarmonyPatch_HeridityPatches()
-        {
-            var harmony = new Harmony("com.airo.rimbound");
+        //static HarmonyPatch_HeridityPatches()
+        //{
+        //    var harmony = new Harmony("com.airo.rimbound");
 
-            patchType = typeof(HarmonyPatch_HeridityPatches);
-            harmony.Patch(
-                AccessTools.Method(typeof(PregnancyUtility), "GetInheritedGenes", new Type[]
-                {
-                    typeof(Pawn),
-                    typeof(Pawn),
-                    typeof(bool).MakeByRefType()
-                }), postfix: new HarmonyMethod(patchType, nameof(HarmonyPatchPostfix_PregnancyUtilityGetInheritedGenes))
-            );
-            harmony.Patch(AccessTools.Method(typeof(PregnancyUtility), "TryGetInheritedXenotype"),
-                postfix: new HarmonyMethod(patchType, nameof(HarmonyPatchPosfix_PregnancyUtilityTryGetInheritedXenotype))
-            );
-            harmony.Patch(AccessTools.Method(typeof(PregnancyUtility), "ShouldByHybrid"),
-                postfix: new HarmonyMethod(patchType, nameof(HarmonyPatchPosfix_PregnancyUtilityShouldByHybrid))
-            );
-        }
+        //    patchType = typeof(HarmonyPatch_HeridityPatches);
+        //    harmony.Patch(
+        //        AccessTools.Method(typeof(PregnancyUtility), "GetInheritedGenes", new Type[]
+        //        {
+        //            typeof(Pawn),
+        //            typeof(Pawn),
+        //            typeof(bool).MakeByRefType()
+        //        }), postfix: new HarmonyMethod(patchType, nameof(HarmonyPatchPostfix_PregnancyUtilityGetInheritedGenes))
+        //    );
+        //    harmony.Patch(AccessTools.Method(typeof(PregnancyUtility), "TryGetInheritedXenotype"),
+        //        postfix: new HarmonyMethod(patchType, nameof(HarmonyPatchPosfix_PregnancyUtilityTryGetInheritedXenotype))
+        //    );
+        //    harmony.Patch(AccessTools.Method(typeof(PregnancyUtility), "ShouldByHybrid"),
+        //        postfix: new HarmonyMethod(patchType, nameof(HarmonyPatchPosfix_PregnancyUtilityShouldByHybrid))
+        //    );
+        //}
 
         public static void HarmonyPatchPostfix_PregnancyUtilityGetInheritedGenes(Pawn mother, Pawn father, ref List<GeneDef> __result)
         {
@@ -78,6 +78,8 @@ namespace RimboundCore.HarmonyPatches
                         motherXenotype = false;
                         fatherXenotype = false;
                     }
+                    list.AddRangeUnique(__result);
+
                     __result = list;
                 }
                 else if (!parentA && parentB && !sameXenotype)
@@ -98,6 +100,8 @@ namespace RimboundCore.HarmonyPatches
                         motherXenotype = false;
                         fatherXenotype = false;
                     }
+                    list.AddRangeUnique(__result);
+
                     __result = list;
                 }
                 else if (parentA && parentB && !sameXenotype)
@@ -130,6 +134,8 @@ namespace RimboundCore.HarmonyPatches
                         motherXenotype = false;
                         fatherXenotype = false;
                     }
+                    list.AddRangeUnique(__result);
+
                     __result = list;
                 }
                 else if (parentA && parentB && sameXenotype)
@@ -141,6 +147,8 @@ namespace RimboundCore.HarmonyPatches
                     }
                     motherXenotype = true;
                     fatherXenotype = true;
+
+                    list.AddRangeUnique(__result);
                     __result = list;
                 }
             }

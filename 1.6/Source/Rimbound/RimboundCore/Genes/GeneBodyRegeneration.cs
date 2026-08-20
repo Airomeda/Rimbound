@@ -12,30 +12,6 @@ namespace RimboundCore
 
         public HediffComp_BodyRegeneration hediffCompBodyRegen = new HediffComp_BodyRegeneration();
 
-        public static List<BodyPartDef> validParts = new List<BodyPartDef>
-        {
-            RimboundBodyDefOf.Heart,
-            RimboundBodyDefOf.Lung,
-            RimboundBodyDefOf.Liver,
-            RimboundBodyDefOf.Stomach,
-            RimboundBodyDefOf.Kidney,
-            RimboundBodyDefOf.Eye,
-            RimboundBodyDefOf.Ear,
-            RimboundBodyDefOf.Nose,
-            RimboundBodyDefOf.Jaw,
-            RimboundBodyDefOf.Tongue,
-            RimboundBodyDefOf.Neck,
-            RimboundBodyDefOf.Shoulder,
-            RimboundBodyDefOf.Arm,
-            RimboundBodyDefOf.Hand,
-            RimboundBodyDefOf.Finger,
-            RimboundBodyDefOf.Torso,
-            RimboundBodyDefOf.Spine,
-            RimboundBodyDefOf.Leg,
-            RimboundBodyDefOf.Foot,
-            RimboundBodyDefOf.Toe
-        };
-
         public override void PostAdd()
         {
             base.PostAdd();

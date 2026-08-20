@@ -5,10 +5,8 @@ using Verse;
 
 namespace RimboundCore.HarmonyPatches
 {
-    [HarmonyPatch(typeof(HeadTypeDef), "GetGraphic")]
     public static class HarmonyPatch_HeadTypeDefGetGraphic
     {
-        [HarmonyPostfix]
         public static void HarmonyPatchPostfix_HeadTypeDefGetGraphic(HeadTypeDef __instance, Pawn pawn, Color color, ref Graphic_Multi __result)
         {
             HeadTypeDefExtension modExtension = __instance.GetModExtension<HeadTypeDefExtension>();

@@ -9,9 +9,9 @@ namespace Rimbound
         {
             Log.Message("[Rimbound - Core] The stars had aligned, commencing assembly...");
 
-            Harmony stellar = new Harmony("com.airo.rimbound");
+            //Harmony stellar = new Harmony("com.airo.rimbound");
 
-            stellar.PatchAll();
+            //stellar.PatchAll();
         }
     }
 }
